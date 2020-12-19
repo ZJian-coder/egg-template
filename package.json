@@ -8,14 +8,18 @@
   },
   "dependencies": {
     "egg": "^2.15.1",
-    "egg-scripts": "^2.11.0"
+    "egg-scripts": "^2.11.0",
+    "standard-version": "^9.0.0"
   },
   "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
     "autod": "^3.0.1",
     "autod-egg": "^1.1.0",
+    "commitlint-config-cz": "^0.13.2",
     "egg-bin": "^4.11.0",
     "egg-ci": "^1.11.0",
-    "egg-mock": "^3.21.0"
+    "egg-mock": "^3.21.0",
+    "husky": "^4.3.6"
   },
   "engines": {
     "node": ">=10.0.0"
@@ -30,7 +34,8 @@
     "cov": "egg-bin cov",
     "lint": "eslint .",
     "ci": "npm run lint && npm run cov",
-    "autod": "autod"
+    "autod": "autod",
+    "release": "standard-version"
   },
   "ci": {
     "version": "10"
