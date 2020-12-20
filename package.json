@@ -1,58 +1,58 @@
 {
-  "name": "zjcms",
-  "version": "1.0.0",
-  "description": "cms based on egg.js",
-  "private": true,
-  "egg": {
-    "declarations": true
-  },
-  "dependencies": {
-    "egg": "^2.15.1",
-    "egg-scripts": "^2.11.0",
-    "standard-version": "^9.0.0"
-  },
-  "devDependencies": {
-    "@commitlint/cli": "^11.0.0",
-    "autod": "^3.0.1",
-    "autod-egg": "^1.1.0",
-    "babel-eslint": "^10.1.0",
-    "commitlint-config-cz": "^0.13.2",
-    "egg-bin": "^4.11.0",
-    "egg-ci": "^1.11.0",
-    "egg-mock": "^3.21.0",
-    "eslint": "^7.16.0",
-    "eslint-config-alloy": "^3.8.2",
-    "husky": "^4.3.6",
-    "lint-staged": "^10.5.3",
-    "prettier": "^2.2.1",
-    "stylelint": "^13.8.0",
-    "stylelint-config-prettier": "^8.0.2",
-    "stylelint-config-standard": "^20.0.0",
-    "stylelint-order": "^4.1.0"
-  },
-  "engines": {
-    "node": ">=10.0.0"
-  },
-  "scripts": {
-    "start": "egg-scripts start --daemon --title=egg-server-zjcms",
-    "stop": "egg-scripts stop --title=egg-server-zjcms",
-    "dev": "egg-bin dev",
-    "debug": "egg-bin debug",
-    "test": "npm run lint -- --fix && npm run test-local",
-    "test-local": "egg-bin test",
-    "cov": "egg-bin cov",
-    "lint": "eslint .",
-    "ci": "npm run lint && npm run cov",
-    "autod": "autod",
-    "release": "standard-version"
-  },
-  "ci": {
-    "version": "10"
-  },
-  "repository": {
-    "type": "git",
-    "url": ""
-  },
-  "author": "ZJian",
-  "license": "MIT"
+    "name": "zjcms",
+    "version": "1.0.0",
+    "description": "cms based on egg.js",
+    "private": true,
+    "egg": {
+        "declarations": true
+    },
+    "dependencies": {
+        "egg": "^2.15.1",
+        "egg-scripts": "^2.11.0",
+        "standard-version": "^9.0.0"
+    },
+    "devDependencies": {
+        "@commitlint/cli": "^11.0.0",
+        "autod": "^3.0.1",
+        "autod-egg": "^1.1.0",
+        "babel-eslint": "^10.1.0",
+        "commitlint-config-cz": "^0.13.2",
+        "egg-bin": "^4.11.0",
+        "egg-ci": "^1.11.0",
+        "egg-mock": "^3.21.0",
+        "eslint": "^7.16.0",
+        "eslint-config-alloy": "^3.8.2",
+        "husky": "^4.3.6",
+        "lint-staged": "^10.5.3",
+        "prettier": "^2.2.1",
+        "stylelint": "^13.8.0",
+        "stylelint-config-prettier": "^8.0.2",
+        "stylelint-config-standard": "^20.0.0",
+        "stylelint-order": "^4.1.0"
+    },
+    "engines": {
+        "node": ">=10.0.0"
+    },
+    "scripts": {
+        "start": "egg-scripts start --daemon --title=egg-server-zjcms",
+        "stop": "egg-scripts stop --title=egg-server-zjcms",
+        "dev": "egg-bin dev",
+        "debug": "egg-bin debug",
+        "test": "npm run lint -- --fix && npm run test-local",
+        "test-local": "egg-bin test",
+        "cov": "egg-bin cov",
+        "lint": "eslint .",
+        "ci": "npm run lint && npm run cov",
+        "autod": "autod",
+        "release": "standard-version"
+    },
+    "ci": {
+        "version": "10"
+    },
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "author": "ZJian",
+    "license": "MIT"
 }

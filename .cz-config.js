@@ -19,14 +19,14 @@ module.exports = {
         },
         {
             value: ':tada:init',
-            name: '初始化:    初始化项目'
+            name: '初始化:  初始化项目'
         }
     ],
     messages: {
         type: '选择一种你的提交类型:',
         scope: '选择一个scope (可选):',
         // used if allowCustomScopes is true
-        customScope: 'Denote the SCOPE of this change:',
+        customScope: '更改范围:',
         subject: '短说明:\n',
         body: '长说明，使用"|"换行(可选)：\n',
         breaking: '非兼容性说明 (可选):\n',
