@@ -1,14 +1,10 @@
-# zjcms
+# Egg.js Project Template
 
-cms based on egg.js
+一个基于 Egg.js 项目的模板，集成了 ESLint、CommitLint、Prettier、Stylelint 等代码检查与格式化工具，方便初始化 Egg.js 项目
 
-## QuickStart
+## 特性
 
-<!-- add docs here for user -->
-
-see [egg docs][egg] for more detail.
-
-### Development
+### 快速开始
 
 ```bash
 $ npm i
@@ -16,17 +12,9 @@ $ npm run dev
 $ open http://localhost:7001/
 ```
 
-### Deploy
+### 部署
 
 ```bash
 $ npm start
 $ npm stop
 ```
-
-### npm scripts
-
--   Use `npm run lint` to check code style.
--   Use `npm test` to run unit test.
--   Use `npm run autod` to auto detect dependencies upgrade, see [autod](https://www.npmjs.com/package/autod) for more detail.
-
-[egg]: https://eggjs.org
